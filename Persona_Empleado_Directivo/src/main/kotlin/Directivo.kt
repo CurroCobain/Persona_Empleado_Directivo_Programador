@@ -1,14 +1,7 @@
 class Directivo:Empleado{
-    var plus_direccion_dietas: Double=0.0
-    var cargo:String="Directivo"
+    protected var plus_direccion_dietas: Double=0.0
+    protected var cargo:String="Directivo"
     init{
-        this.nombre="nombre"
-        this.apellidos="apellido1 apellido2"
-        this.dni="123456789A"
-        this.fechaContrato="00/00/0000"
-        this.sueldoBase=0.0
-        this.baseExtras=0.0
-        this.numHorasExtra=0
         this.plus_direccion_dietas=0.0
         this.cargo="Directivo"
     }

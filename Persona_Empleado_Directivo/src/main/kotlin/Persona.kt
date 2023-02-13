@@ -1,5 +1,5 @@
 abstract class Persona (){
-    var nombre:String ="nombre"
+    protected var nombre:String ="nombre"
         get():String{
             return field
         }
@@ -10,7 +10,7 @@ abstract class Persona (){
                 println("El nombre no puede tener más de 20 caracteres")
             }
         }
-    var apellidos:String ="apellido1 apellido2"
+    protected var apellidos:String ="apellido1 apellido2"
         get():String{
             return field
         }
@@ -21,7 +21,7 @@ abstract class Persona (){
                 println("El campo apellidos no puede tener más de 40 caracteres")
             }
         }
-    var dni:String ="123456789A"
+    protected var dni:String ="123456789A"
         get():String{
             return  field
         }

@@ -5,4 +5,6 @@ fun main(){
     prog1.mostrarinfo()
     prog1.pedirAumento()
     prog1.pedirVacaciones()
+    var prog2=Programador()
+
 }
